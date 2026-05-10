@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run ExternalFrm",
+            "request": "launch",
+            "mainClass": "FrmFormulario.ExternalFrm",
+            "projectName": "Formulario",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": [],
+            "env": {},
+            "classPaths": ["${workspaceFolder}/bin"]
+        },
+        {
+            "type": "java",
+            "name": "Debug ExternalFrm",
+            "request": "launch",
+            "mainClass": "FrmFormulario.ExternalFrm",
+            "projectName": "Formulario",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "args": [],
+            "env": {},
+            "classPaths": ["${workspaceFolder}/bin"]
+        }
+    ]
+}
